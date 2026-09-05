@@ -1,0 +1,13 @@
+{
+  "_comment": "Display-only folder organization for the editor's Browse tab, curated by Atomic. Each folder groups mod CARDS under a heading; folders show in `order` (ascending), mods within a folder show in array order. This is purely presentation: it adds NO directories to any repo, and each mod stays a single card (all of a mod's versions already live under its own mods/<id>/ folder). A folder may hold mods drawn from any verified repo, referenced by repo + modId. A mod with no placement here falls into a default 'Uncategorized' group. EXCLUSIVE to this official repo: the editor reads folders.json only from here, so no other repo can define the Browse tab's folders.",
+  "folders": [
+    {
+      "id": "essentials",
+      "name": "Brick Rigs Essentials",
+      "order": 1,
+      "mods": [
+        { "repo": "Atomic-Dude/Atomic-BRXRP-Repo", "modId": "example-mod" }
+      ]
+    }
+  ]
+}

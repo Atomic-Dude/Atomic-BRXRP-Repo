@@ -1,0 +1,15 @@
+{
+  "id": "example-mod",
+  "name": "Example Plugin",
+  "author": "Atomic",
+  "description": "An example BRX resource plugin with a single box brick. Used as the loader's live test target.",
+  "icon": null,
+  "versions": [
+    {
+      "version": "1.0.0",
+      "file": "1.0.0.brxrp",
+      "brickRigs": "1.10",
+      "sha256": "2bb3ec0f389c542e1b1b00cffc9d652b4d98c44eb8e99a07232e9e426a971dfd"
+    }
+  ]
+}

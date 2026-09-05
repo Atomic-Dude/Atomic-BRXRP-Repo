@@ -1,0 +1,12 @@
+{
+  "_comment": "Curated list of trusted BRX resource-plugin source repos. A repo is verified by trusting its OWNER, not by auditing every file. The editor loads this list, crawls each repo's mods root via the jsDelivr data API, and reads each mod's mod.json. Edited by hand by Atomic; adding a repo here is what makes it 'Verified'. REGISTRY IS EXCLUSIVE: the editor reads verified.json / featured.json / folders.json ONLY from this one hardcoded official repo. Every other repo (verified or user-added) contributes its mods/ folder and nothing else - a third-party repo cannot verify, feature, or folder-organize anything, even if it ships its own registry/ files, because the editor never fetches them.",
+  "repos": [
+    {
+      "owner": "Atomic-Dude",
+      "repo": "Atomic-BRXRP-Repo",
+      "ref": "main",
+      "root": "mods",
+      "name": "Atomic BRXRP"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "_comment": "Pinned mods shown first in the editor's Browse tab. Order ascending. Each entry names a repo from verified.json and a modId (folder name). EXCLUSIVE to this official repo: the editor reads featured.json only from here, so no other repo can pin its own mods.",
+  "featured": [
+    { "repo": "Atomic-Dude/Atomic-BRXRP-Repo", "modId": "example-mod", "order": 1 }
+  ]
+}
