@@ -1,12 +1,14 @@
 {
-  "_comment": "Curated list of trusted BRX resource-plugin source repos. A repo is verified by trusting its OWNER, not by auditing every file. The editor loads this list, crawls each repo's mods root via the jsDelivr data API, and reads each mod's mod.json. Edited by hand by Atomic; adding a repo here is what makes it 'Verified'. REGISTRY IS EXCLUSIVE: the editor reads verified.json / featured.json / folders.json ONLY from this one hardcoded official repo. Every other repo (verified or user-added) contributes its mods/ folder and nothing else - a third-party repo cannot verify, feature, or folder-organize anything, even if it ships its own registry/ files, because the editor never fetches them.",
+  "_comment": "Curated list of trusted BRX resource-plugin source repos. A repo is verified by trusting its OWNER, not by auditing every file. Repos listed here appear in the editor's All Sources directory for one-click adding; only entries marked main:true are ALWAYS active sources and cannot be removed in the editor. Each repo's display name and icon come from its own repo.json (name/icon here are fallbacks for repos that lack one). Edited by hand by Atomic; listing a repo here is what makes it 'Verified'. REGISTRY IS EXCLUSIVE: the editor reads verified.json / featured.json / folders.json ONLY from this one hardcoded official repo. Every other repo (verified or user-added) contributes its mods/ folder and nothing else - a third-party repo cannot verify, feature, or folder-organize anything, even if it ships its own registry/ files, because the editor never fetches them.",
   "repos": [
     {
       "owner": "Atomic-Dude",
       "repo": "Atomic-BRXRP-Repo",
       "ref": "main",
       "root": "mods",
-      "name": "Atomic BRXRP"
+      "name": "Atomic's Official BRXRP Repo",
+      "icon": "https://repo.brxeditor.com/icon.png",
+      "main": true
     }
   ]
 }

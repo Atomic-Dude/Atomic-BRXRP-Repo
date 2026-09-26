@@ -1,0 +1,6 @@
+{
+  "_comment": "Self-description of this BRXRP repo, read by the BRX Editor when the repo is a source (or is being added as one). The name and icon here ARE the repo's identity in the editor: a user adds a link and the editor fetches this, so there is nothing to rename client-side. The icon is a filename at the repo root.",
+  "name": "Atomic's Official BRXRP Repo",
+  "description": "First-party resource plugins for BRX Editor, curated and hosted by Atomic.",
+  "icon": "icon.png"
+}
